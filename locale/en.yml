@@ -1,0 +1,25 @@
+qwe987299-auto-ban-spam:
+  admin:
+    settings:
+      title: Auto Ban Spam Keywords Settings
+      keywords_label: Banned Keywords List
+      keywords_help: Enter keywords to automatically ban users for. Separate multiple keywords with newlines or commas (,). When detected in nickname, bio, discussion title, or post content, the account will be permanently suspended, nickname changed to "Banned", profile wiped, and processed according to the configured action strategy.
+      action_type_label: User Violation Action Strategy
+      action_type_help: Choose how past discussions, posts, and uploaded files created by the banned user should be handled.
+      action_type_soft: Soft Delete (Hide / Send to approval queue, keep original content)
+      action_type_hard: Hard Delete (Permanently remove discussions, posts, and FoF Upload files)
+      only_recent_days_label: Member Registration Days Threshold
+      only_recent_days_help: Enter number of days (e.g. 30 means keyword detection only applies to accounts registered within the last 30 days). Set to 0 to disable (applies to all members).
+    permissions:
+      bypass_label: Ignored Groups (Bypass keyword auto-ban check)
+      manual_ban_label: Manually trigger indefinite ban & cleanup
+  forum:
+    banned_notice: Your account has been suspended due to restricted content.
+    user_controls:
+      manual_ban_button: Indefinite Ban
+    modal:
+      title: Confirm Indefinite Ban
+      body: Are you sure you want to trigger indefinite ban and profile cleanup for "{username}"? All past content and uploaded files will be handled according to the configured User Violation Action Strategy.
+      confirm_button: Confirm Ban
+      cancel_button: Cancel
+      success_message: Indefinite ban and cleanup executed successfully.
