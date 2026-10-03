@@ -2,13 +2,14 @@
 
 > **Read-only archive of released versions of qwe987299/flarum-auto-ban-spam.** Not for installation: use [Packagist](https://packagist.org/packages/qwe987299/flarum-auto-ban-spam) or the [upstream repository](https://github.com/qwe987299/flarum-auto-ban-spam).
 
-**0** versions archived · Latest: [`v1.0.6`](https://github.com/flarchive/qwe987299-flarum-auto-ban-spam/tree/archive/v1.0.6) · License: `MIT` · Flarum: `^1.8 || ^2.0.0`
+**2** versions archived · Latest: [`v1.0.6`](https://github.com/flarchive/qwe987299-flarum-auto-ban-spam/tree/archive/v1.0.6) · License: `MIT` · Flarum: `^1.8 || ^2.0.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v1.0.5` | 2026-07-24 | `^1.8 || ^2.0.0` | [Browse](https://github.com/flarchive/qwe987299-flarum-auto-ban-spam/tree/archive/v1.0.5) |
+| `v1.0.6` | 2026-07-30 | `^1.8 || ^2.0.0` | [Browse](https://github.com/flarchive/qwe987299-flarum-auto-ban-spam/tree/archive/v1.0.6) |
 
 Catalog entry: [packages/qwe987299-flarum-auto-ban-spam.json](https://github.com/flarchive/archive-index/blob/main/packages/qwe987299-flarum-auto-ban-spam.json)
 
